@@ -1,0 +1,24 @@
+/*
+    selector{
+        propiedad1: valor;
+        propiedad2: valor;
+    }
+*/
+body {background-color: rgb(222, 214, 198);}
+h1 { color:rgb(190, 115, 119)}
+
+header{border:4px dashed; color: blue; background-color: rgb(217, 189, 248);}
+main{border:2px solid; color: chartreuse; background-color: rgb(169, 209, 167);}
+footer{border:3px dotted;color: deeppink;  background-color: gray;}
+
+h1{color: darkred;}
+p{color: red;}
+
+/*ESTILO PARA UNA CLASE ES UNICO*/
+#ensayo { font-size:  20px;
+         font-weight:bold;}
+
+/*CLAS-> PARA VALIOS ELEMENTOS*/
+
+.shakira {color: rgb(170, 147, 15);}
+

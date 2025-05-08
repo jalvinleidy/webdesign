@@ -1,0 +1,46 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{ 
+    border: blueviolet dashed 4px;
+}
+header {
+    width: 1200px;
+    height: 100px;
+    border: red solid 5px;
+}
+
+section {
+    border:  gray solid ;
+    height: 100px;
+ }
+
+ #h_left {
+     width: 200px;
+    float: right;
+}
+
+aside{
+    border: solid green;
+    width: 300px ;
+    float: left;
+    height: 300px;
+}
+
+main{
+    border: lightblue solid;
+    height: 280px;
+    font-size: 20px;
+    
+}
+
+main section {
+    font-size: .8em.;
+    width: 800px;
+    padding: 
+    
+}
+

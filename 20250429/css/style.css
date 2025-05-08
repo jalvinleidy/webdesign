@@ -1,0 +1,37 @@
+body{
+    border: rgb(238, 149, 149) dashed 5px;
+    padding: 1rem /* 1rem= 16px;*/
+}
+
+header{ 
+    border: rgb(83, 83, 177) solid 3px;
+    padding: 1rem /* 1rem= 16px;*/
+}
+
+nav{
+    border: 1px rgb(236, 29, 174) solid;
+    border-radius:  1rem;
+}
+
+ul{
+    list-style: none;  
+}
+
+nav a { text-decoration: none ;}
+
+li{ background-color: rgb(180, 196, 240);}
+
+li{ display: inline;}
+
+main{ 
+    border: greenyellow dotted 8px;
+    padding: 1rem;
+    margin: 1rem;
+}
+footer{
+    background-color: aquamarine;
+    color: blue;
+    border: 3px rgb(77, 60, 233) solid;
+}
+
+p { text-align: justify;}

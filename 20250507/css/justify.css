@@ -1,0 +1,25 @@
+section {
+    display: flex;
+    background: rgb(227, 173, 227)
+}
+
+article {
+    height: 100px;
+    width: 100px;
+    background: rgb(145, 172, 230);
+}
+
+section, article {
+    border: solid 3px;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+#izq { justify-content: flex-start;}
+#der { justify-content: flex-end;}
+#center { justify-content: center;}
+#space { justify-content: space-around;}
+#between { justify-content: space-between;}
+#evenly { justify-content: space-evenly;}
+
+main { background: violet;}
