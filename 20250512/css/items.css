@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main {
+    background: violet;
+    padding: 1rem;
+}
+section {
+    background: purple;
+    display: flex;
+    height: 90px;
+    width: 90px;
+    text-align: center ;
+    
+    
+}
