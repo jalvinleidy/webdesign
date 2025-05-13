@@ -11,8 +11,26 @@ section {
     background: purple;
     display: flex;
     height: 90px;
-    width: 90px;
-    text-align: center ;
-    
-    
 }
+article{ 
+    background: orange;
+    border: dotted;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+
+
+    font-size: 2rem;
+    flex-grow: 1;   
+}
+section, article {
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid 3px black;
+}
+.sebcillo {flex-grow: 1;}
+.doble { flex-grow: 2;}
+.triple {flex-grow: 3;}
+
+.order6 {order: 2;}
+.order1menos {order: -1;}
