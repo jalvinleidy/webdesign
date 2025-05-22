@@ -1,0 +1,27 @@
+* { box-sizing: border-box; padding: 0; margin: 0;}
+
+main { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: red 4px solid;padding: 2rem;
+}
+
+section { display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 50px);
+    border: rgb(8, 233, 38) solid 3px;
+    gap: 1rem;
+    padding: 5px;
+}
+article {
+    border: rgb(31, 31, 32) solid;
+    width: 25px;
+    height: 25px;
+    background: rgb(235, 139, 227);    
+}
+#s_01 article, #s_02 article, #s_03 article { height: unset;}
+#s_01 { justify-self: start;}
+#s_02 { justify-self: end;}
+#s_03 { justify-self:  center;}
+
