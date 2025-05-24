@@ -1,0 +1,18 @@
+* {box-sizing: border-box; padding: 0; margin: o;}
+
+header { 
+    background-color: violet;
+    padding: 2rem;
+    border: solid rgb(233, 24, 86);
+}
+main {
+    background: rgb(134, 125, 132);
+    border: black  dashed 8px;
+    padding: 5rem;
+}
+footer { 
+    background: darkviolet;
+    border: dotted 4px greenyellow;
+    padding: 1rem;
+
+}
