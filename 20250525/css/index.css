@@ -44,10 +44,10 @@ main{
     grid-column: 1 /5;
     border: solid #d44f4f;padding: 1rem;   
 }
-aside{ border: rgb(180, 192, 7) solid; grid-column: -3 / -1;
+ide{ border: rgb(180, 192, 7) solid; grid-column: -3 / -1;
         margin: 1rem;}
 
-footer { grid-column: 1 / -1; height: 80px; padding: 2rem; background: rgb(27, 205, 237);}
+footer { grid-column: 1 / -1; height:as 80px; padding: 2rem; background: rgb(27, 205, 237);}
 
 section { border: dotted rgb(53, 52, 49) 5px;}
 
