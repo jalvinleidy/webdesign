@@ -1,67 +1,36 @@
-* {box-sizing: border-box; padding: 0;margin: 0;}
+main { 
+    background: rgb(106, 106, 205);
+    width: 1000px;
+    border: red 3px solid;
+    margin: 0 auto; /* centra el objeto en el contenedor*/
+    padding: 1rem;
+    font-size: 2rem;
+}
 
-body { 
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    margin: 2rem;
-    background: rgb(187, 202, 187);    
+/* MAQUETADO PARA TABLET */
+@media screen and (max-width: 800px){
+    main {
+        background: green;
+        border: orange dotted;
+        font-size: 1.2rem;
+        color: lightblue;
+    }
+} /* cierre de media querie*/
+
+/* MAQUETADO PARA CELULAR <#450px */
+@media screen and (max-width: 450px) {
+    main { 
+        background: yellow;
+        border: dashed pink;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8rem;
+        width: unset;
+        margin: unset;
+        color: black;
+    }
 }
-header { 
-    grid-column: 1/ -1 ;
-    display:grid;
-    grid-template-rows: 110px;
-    grid-template-columns: 1fr 4fr;
-    background: violet;
-    margin: 1rem;
-}
-header img { 
-    width: 100px;
-    justify-self: center;
-}
-header h1 {
-    align-self: center;
-}
-nav { 
-    grid-column: 1 / -1;
-    border: dashed purple;
     
-}
-nav ul { 
-    display: grid;
-    grid-template-columns: 1fr repeat(5, 100px);
-    list-style: none;
-}
-nav a {
-    display: grid;
-    border: solid rgb(44, 224, 104);
-    padding: 1rem 1rem;
-    text-decoration: none;
-    text-align: center; 
-}
-nav a:hover { background: lightsalmon; color: black;}
-
-main{ 
-    grid-column: 1 /5;
-    border: solid #d44f4f;padding: 1rem;   
-}
-aside{ border: rgb(180, 192, 7) solid; grid-column: -3 / -1;
-        margin: 1rem;}
-
-footer { grid-column: 1 / -1; height: 80px; padding: 2rem; background: rgb(27, 205, 237);}
-
-section { border: dotted rgb(53, 52, 49) 5px;}
-
-.uno { display: grid;grid-template-columns: 1fr 1fr;}
-
-article { 
-    background-color: rgb(147, 154, 160);
-    border-radius: 1rem; margin: 1rem;
-}
 
 
-
-
-
-
-
+    
 
